@@ -24,5 +24,10 @@ class Yiyuan1ApplicationTests {
         System.out.println(users);
 
     }
+    @Test
+    public  void contextLoads3() {
+        List<User> users = userMapper.selectList(null);
+        System.out.println(users);
 
+    }
 }
